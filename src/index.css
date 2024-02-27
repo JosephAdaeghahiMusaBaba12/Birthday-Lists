@@ -1,0 +1,51 @@
+.title{
+    text-align: center;
+    font-size: 2rem;
+}
+body{
+    background-color: burlywood;   
+}
+main{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 0.5rem;
+    padding: 1.5rem 2rem;
+}
+container h3{
+    margin-bottom: 2rem;
+}
+.person{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.person img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;   
+}
+.person h4{
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+.person p{
+    color: #64748b;;
+}
+.btn{
+    display: flex;
+    background: rebeccapurple;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5%;
+}
